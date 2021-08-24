@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
-    int n = 20,big;
+    int n = 15,big;
     printf("number of elements: %d\n",n);
   
     int *arr = (int*)malloc(n*sizeof(int));
