@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
-    int n,big;
-    printf("Enter the number of elements:\n");
-    scanf("%d",&n);
+    int n = 20,big;
+    printf("number of elements: %d\n",n);
+  
     int *arr = (int*)malloc(n*sizeof(int));
     printf("Enter the numbers\n");
     for(int i=0;i<n;i++){
