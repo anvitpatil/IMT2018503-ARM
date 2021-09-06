@@ -19,7 +19,7 @@ struct Queue* make_queue(int capacity){
 
 int isFull(struct Queue* queue)
 {
-    return (queue->size == queue->capacity);
+    return ((queue->size == queue->capacity) || queue->rear == queue->capacity -1);
 }
   
 int isEmpty(struct Queue* queue)
